@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stories of Now Photography – Sven Nuhnen</title>
+  <meta name="description" content="Stories of Now Photography: Hochzeiten, Paare, Familien, Baby/Schwangerschaft in Düsseldorf & Umgebung." />
+  <meta property="og:title" content="Stories of Now Photography" />
+  <meta property="og:description" content="Authentische Fotografie für Menschen & Momente in Düsseldorf & Umgebung." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/og-image.jpg" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <style>
+    body { font-family: Arial, sans-serif; background:#fff; color:#111; margin:0; line-height:1.6; }
+    h1,h2,h3 { font-family: Georgia, serif; color:#000; }
+    a { color:#000; }
+    header { padding:20px; text-align:center; border-bottom:1px solid #eee; }
+    header img { max-height:100px; }
+    main { max-width:1000px; margin:auto; padding:20px; }
+    section { margin:40px 0; }
+    .gallery img { width:100%; max-width:250px; margin:8px; border-radius:6px; }
+    footer { text-align:center; padding:20px; border-top:1px solid #eee; font-size:14px; color:#333; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/assets/logo.png" alt="Logo Stories of Now Photography" />
+  </header>
+  <main>
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>Hey, ich bin Sven - Fotograf aus Leidenschaft. Ich bin 34 Jahre alt und komme aus Düsseldorf.</p>
+      <p>Schwerpunkte: Hochzeiten, Paare, Familien, Baby/Schwangerschaft</p>
+      <p>Region: Düsseldorf & Umgebung</p>
+    </section>
+    <section id="gallery">
+      <h2>Galerie</h2>
+      <div class="gallery">
+        <img src="/assets/gallery/01.jpg" alt="Bild 1">
+        <img src="/assets/gallery/02.jpg" alt="Bild 2">
+        <img src="/assets/gallery/03.jpg" alt="Bild 3">
+      </div>
+    </section>
+    <section id="reviews">
+      <h2>Bewertungen</h2>
+      <p>„Unglaublich schöne Bilder! Das Shooting war super entspannt.“ – A. Müller</p>
+    </section>
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>Schreib mir über das Formular oder via <a href="https://www.instagram.com/storiesofnow.photography?igsh=MXNtZ254NHV2OHJleQ%3D%3D&utm_source=qr" target="_blank">Instagram</a>.</p>
+      <form>
+        <input type="text" placeholder="Name" required><br>
+        <input type="email" placeholder="E-Mail" required><br>
+        <textarea placeholder="Nachricht"></textarea><br>
+        <button type="submit">Senden</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© <span id="year"></span> Sven Nuhnen – Stories of Now Photography</p>
+    <p><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
